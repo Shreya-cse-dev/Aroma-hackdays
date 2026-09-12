@@ -1,0 +1,6 @@
+{
+  "name": "Aroma",
+  "description": "Fresh Food. Smart Resale. Zero Waste. Platform for reselling and redistributing freshly prepared food from cloud kitchens in India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

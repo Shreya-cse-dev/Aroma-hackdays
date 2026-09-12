@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.8; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.04); }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2.5s infinite ease-in-out;
+}
